@@ -10,7 +10,7 @@ const items = [
     price: "18g",
     stock: "stock available upon request",
     image: "images/cobblestone.png"
-  }
+  },
   {
     name: "Sand Double Chest",
     price: "18g",
@@ -40,5 +40,5 @@ items.forEach(item => {
       <h2>${item.name}</h2>
       <p>${item.stock}</p>
       <div class="price">${item.price}</div>
-    </div>;
+    </div>
 });
