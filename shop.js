@@ -1,15 +1,15 @@
 const items = [
   {
-    name: "Diamond Sword",
-    price: "$500",
-    stock: "12 in stock",
+    name: "Stone Double Chest",
+    price: "18g",
+    stock: "stock available upon request",
     image: "images/sword.png"
   },
   {
-    name: "Totem of Undying",
-    price: "$150",
-    stock: "32 in stock",
-    image: "images/totem.png"
+    name: "Cobblestone Double Chest",
+    price: "18g",
+    stock: "stock available upon request",
+    image: "images/cobblestone.png"
   }
 ];
 
