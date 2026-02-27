@@ -41,4 +41,5 @@ items.forEach(item => {
       <p>${item.stock}</p>
       <div class="price">${item.price}</div>
     </div>
+    ';
 });
