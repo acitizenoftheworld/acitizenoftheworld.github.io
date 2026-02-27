@@ -34,8 +34,10 @@ header {
 }
 
 .item img {
-  width: 64px;
-  height: 64px;
+  width: 50%;      /* Image takes 50% of the card width */
+  height: auto;    /* Keeps the correct aspect ratio */
+  object-fit: contain;
+  margin-bottom: 10px;
 }
 
 .price {
