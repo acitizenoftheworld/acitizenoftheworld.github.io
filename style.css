@@ -22,17 +22,17 @@ header {
 
 .item {
   background: #111827;
-  border-radius: 1%;          /* Small rounding */
-  padding: 2%;                /* Relative padding */
-  width: 22%;                 /* Each card takes ~22% of container width */
+  border-radius: 1%;              /* Keep rounding relative */
+  padding: 2%;                    /* Relative padding */
+  width: 22%;                     /* Percent width for responsive layout */
   text-align: center;
-  border: 0.2% solid #1f2937; /* Relative border thickness */
+  border: 2px solid white;        /* Make border visible */
   transition: 0.2s ease;
 }
 
 .item:hover {
   transform: translateY(-1%);
-  border-color: #38bdf8;
+  border-color: #38bdf8;  /* light blue on hover */
 }
 .item img {
   width: 60%;       /* Takes 60% of the card width */
