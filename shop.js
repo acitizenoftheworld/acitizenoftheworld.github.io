@@ -2,31 +2,31 @@ const items = [
   {
     name: "Stone Double Chest",
     price: "18g",
-    stock: "stock available upon request",
+    stock: "As many as you need",
     image: "images/stone.png"
   },
   {
     name: "Cobblestone Double Chest",
     price: "18g",
-    stock: "stock available upon request",
+    stock: "As many as you need",
     image: "images/cobblestone.png"
   },
   {
     name: "Sand Double Chest",
     price: "18g",
-    stock: "stock available upon request",
+    stock: "As many as you need",
     image: "images/sand.png"
   },
   {
     name: "Grass Double Chest",
     price: "18g",
-    stock: "stock available upon request",
+    stock: "3 in Stock",
     image: "images/grass.png"
   },
   {
     name: "Glass Double Chest",
     price: "18g",
-    stock: "stock available upon request",
+    stock: "As many as you need",
     image: "images/glass.png"
   }
 ];
