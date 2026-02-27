@@ -40,6 +40,5 @@ items.forEach(item => {
       <h2>${item.name}</h2>
       <p>${item.stock}</p>
       <div class="price">${item.price}</div>
-    </div>
-  `;
+    </div>;
 });
