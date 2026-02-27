@@ -13,31 +13,32 @@ header {
 }
 
 .shop {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  padding: 30px;
+  display: flex;              /* Use flexbox for easy percent widths */
+  flex-wrap: wrap;            /* Wrap cards to new lines on smaller screens */
+  justify-content: space-around; /* Space out cards evenly */
+  padding: 2%;                /* Some padding around the grid */
+  gap: 2%;                    /* Gap between cards */
 }
 
 .item {
   background: #111827;
-  border-radius: 14px;
-  padding: 20px;
+  border-radius: 1%;          /* Small rounding */
+  padding: 2%;                /* Relative padding */
+  width: 22%;                 /* Each card takes ~22% of container width */
   text-align: center;
+  border: 0.2% solid #1f2937; /* Relative border thickness */
   transition: 0.2s ease;
-  border: 1px solid #1f2937;
 }
 
 .item:hover {
-  transform: translateY(-5px);
+  transform: translateY(-1%);
   border-color: #38bdf8;
 }
-
 .item img {
-  width: 50%;      /* Image takes 50% of the card width */
-  height: auto;    /* Keeps the correct aspect ratio */
+  width: 60%;       /* Takes 60% of the card width */
+  height: auto;     /* Keep original aspect ratio */
   object-fit: contain;
-  margin-bottom: 10px;
+  margin-bottom: 5%;
 }
 
 .price {
