@@ -21,12 +21,13 @@ header {
 }
 
 .item {
-  background: #111827;
-  border-radius: 1%;              /* Keep rounding relative */
-  padding: 2%;                    /* Relative padding */
-  width: 22%;                     /* Percent width for responsive layout */
+  background: #111827;           /* Dark background for the card */
+  border-radius: 8px;            /* Rounded corners */
+  padding: 2%;                   /* Relative padding */
+  width: 22%;                    /* Percent-based width for responsiveness */
   text-align: center;
-  border: 2px solid white;        /* Make border visible */
+  border: 2px solid #ffffff;     /* Solid white border */
+  box-sizing: border-box;        /* Include border in width calculation */
   transition: 0.2s ease;
 }
 
