@@ -28,7 +28,7 @@ const items = [
     price: "18g",
     stock: "stock available upon request",
     image: "images/glass.png"
-  },
+  }
 ];
 
 const shop = document.getElementById("shop");
